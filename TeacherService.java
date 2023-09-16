@@ -9,7 +9,7 @@ public class TeacherService {
         //добавление учителя в список
         teachers.add(teacher);
     }
-    public void editTeacher(Teacher teacher){
+    public void editTeacher(int index, Teacher teacher){
         //изменение информации о конкретном учителе
         teachers.set(index, teacher);
     }
